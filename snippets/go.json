@@ -116,11 +116,6 @@
     },
     "if err != nil": {
         "prefix": "ir",
-        "body": "if err != nil {\n\treturn ${1:nil}, ${2:err}\n}",
-        "description": "Snippet for if err != nil"
-    },
-    "single return value if err != nil": {
-        "prefix": "er",
         "body": "if err != nil {\n\treturn ${1:nil}\n}",
         "description": "Snippet for if err != nil"
     },
